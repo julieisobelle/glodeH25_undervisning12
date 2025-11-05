@@ -1,4 +1,21 @@
-/* -- GENERAL -- */
+/* CSS Variabler */
+:root {
+  /* Color */
+  --colorOne: orange;
+  --colorTwo: purple;
+
+  /* Size */
+  --spacingSmall: 8px;
+  --spacingMedium: 16px;
+  --spacingLarge: 24px;
+
+  /* Font */
+  --title: 42px;
+  --underTitle: 36px;
+  --minorTitle: 30px;
+}
+
+/* -- GLOBAL -- */
 body {
   margin: 0;
 }
@@ -7,39 +24,106 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  font-size: var(--title);
+}
+
+h2 {
+  font-size: var(--underTitle);
+}
+
+h3 {
+  font-size: var(--minorTitle);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.button {
+  width: 75px;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+.introText, .introImg {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
 /* -- HEADER -- */
 header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
-  border-bottom: 3px solid black;
+  padding: var(--spacingMedium);
+  border-bottom: 3px solid var(--colorOne);
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: var(--colorTwo);
 }
 
 .logo {
   height: 32px;
   width: 32px;
-  background-color: white;
+  background-color: var(--colorTwo);
 }
 
 /* NAV */
 .navList {
   display: flex;
-  gap: 16px;
+  gap: var(--spacingMedium);
   list-style-type: none;
   padding-inline-start: 0;
 }
 
 /* -- MAIN -- */
-.section {
-  min-height: 100vh;
-}
+
 
 /* HOME */
+.sectionHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacingLarge);
+}
+
+.heroIntro {
+  display: flex;
+  align-items: center;
+}
+
+.buttonOne {
+  background-color: var(--colorOne);
+  color: var(--colorTwo)
+}
+
+.buttonTwo {
+  background-color: var(--colorTwo);
+  color: var(--colorOne);
+}
 
 /* ABOUT */
+.sectionAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacingLarge);
+}
+
+.aboutIntro {
+  display: flex;
+  align-items: center;
+}
 
 /* PROJECTS */
 
@@ -49,8 +133,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 3px solid black;
-  padding: 16px;
+  border-bottom: 3px solid var(--colorOne);
+  padding: var(--spacingMedium)
 }
 
 .contact {
@@ -58,7 +142,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 4px;
-  color: black;
+  color: var(--colorOne)
 }
 
 /* -- MEDIA -- */
