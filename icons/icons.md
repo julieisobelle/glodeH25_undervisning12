@@ -14,6 +14,10 @@ https://www.flaticon.com/free-icon/hamburger_7710488?term=hamburger&page=1&posit
 
 https://www.flaticon.com/free-icon/code_3573187?term=bracket&page=1&position=12&origin=search&related_id=3573187
 
+## Arrow down
+
+https://www.flaticon.com/free-icon/arrow-down-sign-to-navigate_32195?term=arrow&page=1&position=17&origin=search&related_id=32195
+
 ## HTML Logo
 
 https://www.flaticon.com/free-icon/html_1051277?term=html&page=1&position=2&origin=search&related_id=1051277
