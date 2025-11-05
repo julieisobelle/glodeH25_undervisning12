@@ -1,0 +1,64 @@
+/* -- GENERAL -- */
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* -- HEADER -- */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 3px solid black;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+  background-color: white;
+}
+
+/* NAV */
+.navList {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+/* -- MAIN -- */
+.section {
+  min-height: 100vh;
+}
+
+/* HOME */
+
+/* ABOUT */
+
+/* PROJECTS */
+
+/* -- FOOTER -- */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid black;
+  padding: 16px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: black;
+}
+
+/* -- MEDIA -- */
